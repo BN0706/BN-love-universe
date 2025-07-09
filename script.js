@@ -1,0 +1,1 @@
+// JavaScript for section animation and interactions
