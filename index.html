@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BNLove Written by Universe</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function checkPassword() {
+      const password = document.getElementById("password").value;
+      if (password === "MrsNiranjan2025") {
+        document.getElementById("lockScreen").style.display = "none";
+        document.getElementById("siteContent").style.display = "block";
+      } else {
+        alert("Incorrect password. Try again.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="lockScreen">
+    <h2 style="text-align:center; margin-top: 100px;">🔐 This is a private love space</h2>
+    <div style="text-align:center; margin-top: 20px;">
+      <input type="password" id="password" placeholder="Enter password" />
+      <button onclick="checkPassword()">Unlock</button>
+    </div>
+  </div>
+
+  <div id="siteContent" style="display:none;">
+    <h1>💖 BNLove Written by Universe 💖</h1>
+    <p>Welcome, Mrs. Niranjan. Your universe of love is ready.</p>
+
+    <h2>💌 Love Letter</h2>
+    <p>Hey mama..my lovely lovellyyyyyyyyyyyy husband, you mean the world to me...</p>
+
+    <h2>📆 Timeline</h2>
+    <ul>
+      <li><b>January 2023:</b> First time I saw you...</li>
+      <li><b>September 27, 2023:</b> First message...</li>
+      <li><b>October 31, 2024:</b> You told me you love me...</li>
+    </ul>
+
+    <h2>📸 Memories</h2>
+    <p><a href="#" target="_blank">Click here to view our private photos</a></p>
+
+    <h2>🎥 My Feelings Video</h2>
+    <p><a href="#" target="_blank">Watch the surprise video here</a></p>
+
+    <h2>🌈 Dreams</h2>
+    <ul>
+      <li>Marriage life – Daily hugs, kisses, and love</li>
+      <li>Cute house together</li>
+      <li>Travel the world hand in hand</li>
+      <li>Midnight cuddles</li>
+      <li>Cooking for you</li>
+      <li>Our babies just like you</li>
+      <li>No death, just forever</li>
+    </ul>
+
+    <h2>💖 Surprise Message</h2>
+    <p>You are my forever, Niranjan. There is no end to this story... only new chapters. 🌙</p>
+  </div>
+</body>
+</html>
